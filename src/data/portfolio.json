@@ -1,0 +1,52 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/burgerhub.png",
+            "title": "Burgerhub",
+            "description":"HTML, CSS, Bootstrap",
+            "url": "https://brigilets.github.io/BurgerHub/"
+        },
+        {
+            "cover": "/portfolio/cookieClicker.png",
+            "title": "Cookie Clicker",
+            "description":"HTML, CSS, Javascript",
+            "url": "https://brigilets.github.io/Javascript/"
+        },
+        {
+            "cover": "/portfolio/rpgGame.png",
+            "title": "RPG game ",
+            "description":"HTML, CSS, Javascript",
+            "url": "https://brigilets.github.io/RPG-game/"
+        },
+        {
+            "cover": "/portfolio/getflix.png",
+            "title": "Netflix clone ",
+            "description":"PHP, CSS, MariaDB",
+            "url": "http://getflix.atwebpages.com/Frontend/welcome.php"
+        },
+        {
+            "cover": "/portfolio/weather.png",
+            "title": "Basic weather app ",
+            "description":"Javascript, Node.js, handlebars, CSS, External APIs, Heroku",
+            "url": "https://brigi-weather.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/musicverse.png",
+            "title": "Musicverse Festival Website ",
+            "description":"Javascript,React, Node.js, express, Sass, MongoDB, emailjs, stripe payment API, bootstrap, Heroku",
+            "url": "https://musicverse2022.herokuapp.com/home"
+        },
+        {
+            "cover": "/portfolio/actyv.png",
+            "title": "Actyv ",
+            "description":"Javascript,React, Material UI, emailjs, Contentful Headless CMS, Netlify",
+            "url": "http://actyv.eu"
+        },
+        {
+            "cover": "/portfolio/budget.png",
+            "title": "Basic Budget planner ",
+            "description":"JSX,Javascript,React, Bootstrap, Netlify",
+            "url": "https://brigilets-budget-tracker.netlify.app/"
+        }
+    ]
+}

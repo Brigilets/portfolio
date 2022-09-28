@@ -89,7 +89,7 @@ const Contact = () =>{
           </MapContainer>
         </div>
             </div>
-            <Loader type="packman" />
+            <Loader type="pacman" />
         </>
     )
 };
