@@ -11,7 +11,7 @@ const Contact = () =>{
     const refForm = useRef();
 
     useEffect(()=>{
-        return setTimeout(() => {
+        setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])

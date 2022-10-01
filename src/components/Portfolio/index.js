@@ -10,10 +10,10 @@ const Portfolio = () => {
 
     useEffect(()=>{
         const timer= setTimeout(() => {
-            setLetterClass('text-animate-hover')
+            setLetterClass('text-animate-hover');
         }, 3000);
         return () =>{
-            clearTimeout(timer)
+            clearTimeout(timer);
         }
     }, [])
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 })
             }
             </div>
-        )
+        );
     }
     return (
         <>
@@ -56,7 +56,7 @@ const Portfolio = () => {
         </div>
         <Loader type="pacman" />
         </>
-    )
-};
+    );
+}
 
-export default Portfolio
+export default Portfolio;

@@ -1,37 +1,89 @@
-.logo-container {
+// .logo-container {
+//     z-index: 0;
+//     width: 400px;
+//     height: 609px;
+//     position: absolute;
+//     top: 0;
+//     right: 15%;
+//     bottom: 0;
+//     left: auto;
+//     margin: auto;
+//     opacity: 0;
+
+//     svg {
+//         width: 100%;
+//         height: auto;
+//         bottom: 0;
+//         transform: rotateZ(30deg) !important;
+//     }
+
+//     .solid-logo{
+//         position: absolute;
+//         top: auto;
+//         right: auto;
+//         bottom: auto;
+//         left: 0;
+//         margin: auto;
+//         width: 100%;
+//         opacity: 0;
+//         transform: rotateZ(30deg);
+//         z-index: 1;
+//     }
+// }
+// $text-color: #ffd700;
+// $caret-color: white;
+// $text-length: 8;
+// $animation-time: 4s;
+.text-logo{
     z-index: 0;
-    width: 400px;
-    height: 609px;
-    position: absolute;
-    top: 0;
-    right: 15%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
-    opacity: 0;
+width: 400px;
+height: 100vh;
+position: absolute;
+top: -12%;
+right: 15%;
+bottom: 0;
+left: auto;
+margin: auto;
+opacity: 1; 
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+.page-title{
+    color: #ffd700;
+    font-size: 9em;
+    text-shadow: 0 0 10px #fff, 0 0 42px rgb(0, 208, 255), 0 0 82px rgb(35, 37, 181),0 0 92px rgb(58, 65, 195);
 
-    svg {
-        width: 100%;
-        height: auto;
-        bottom: 0;
-        transform: rotateZ(30deg) !important;
-    }
-
-    .solid-logo{
-        position: absolute;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        opacity: 0;
-        transform: rotateZ(30deg);
-        z-index: 1;
-    }
 }
 
-.svg-container{
-     stroke: #ffd700;
-     stroke-width: 10px;
+
+
+// h1{
+//     color: #ffd700;
+//     font-family: 'Inconsolata', Consolas, monospace;
+// 	font-size: 6em;
+// 	color: $text-color;
+
+//     // .typing {
+//         position: relative;
+//           &::after {
+//           content: "|";
+//           position: absolute;
+//           right: 0;
+//           width: 100%;
+//           color: $caret-color;
+//           background-color: inherit;
+//           animation: typing $animation-time steps($text-length) forwards,
+//             caret 1s infinite;
+//         }
+//     //   }
+//       // Animation
+//       @keyframes typing {
+//           to { width: 0 }
+//       }
+//       @keyframes caret {
+//           50% { color: transparent }
+//       }
+// }
+
 }

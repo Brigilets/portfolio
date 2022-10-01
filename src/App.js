@@ -9,8 +9,7 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-   <>
-    <Routes>
+   <Routes>
       <Route path="/" element={<Layout />} >
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -18,7 +17,7 @@ function App() {
       <Route path="/portfolio" element={<Portfolio />} />
       </Route>
     </Routes>
-   </>
+
   )
 }
 
