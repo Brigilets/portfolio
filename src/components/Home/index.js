@@ -29,8 +29,9 @@ useEffect(()=>{
                    <span className={`${letterClass} _12`}>i,</span>
                     <br/> 
                     <span className={`${letterClass} _13`}>I</span>
-                    <span className={`${letterClass} _14`}>'m</span> 
-                <img src={B} alt="developer"/>
+                    <span className={`${letterClass} _14`}>'m </span> 
+                    <span> </span>
+                <span className='b'>B</span>
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                 <br/>
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
@@ -38,7 +39,8 @@ useEffect(()=>{
                 <h2>Junior Full-stack Developer / Javascript Lover </h2>
                 <Link to="/contact" className='flat-button' >CONTACT ME</Link>
             </div>
-             <Logo /> 
+            <div className='text-logo-container' >
+            <Logo /> </div> 
         </div>
         <Loader type="pacman" />
         </>
