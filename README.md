@@ -14,5 +14,5 @@ node v.16
 
 
 ### Deployment
-- Netlify 
+- Automatic Deployment with Netlify 
 [Portfolio website](https://bsportfolio.netlify.app/)
