@@ -15,3 +15,4 @@ node v.16
 
 ### Deployment
 - Netlify 
+[Portfolio website](https://bsportfolio.netlify.app/)
