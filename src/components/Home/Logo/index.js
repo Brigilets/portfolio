@@ -1,8 +1,5 @@
 import './index.scss'
-// import LogoS from '../../../assests/images/logo-s.png'
 import { useEffect, useState } from 'react';
-// import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-// import gsap from 'gsap-trial';
 import AnimatedLetters from '../../AnimatedLetters';
 
 const Logo = () => {

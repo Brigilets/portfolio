@@ -2,8 +2,6 @@ import './index.scss'
 import { useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
-// import LogoB from '../../assests/images/b.svg'
-// import LogoSubtitle from '../../assests/images/rigita.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faEnvelope, faHome, faSuitcase, faUser, faClose } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -27,8 +25,6 @@ const Sidebar = () => {
     return (
     <div className='nav-bar'>
         <Link className="logo" to='/'>
-            {/* <img src={LogoB} alt='logo' />
-            <img className='sub-logo' src={LogoSubtitle} alt='name' /> */}
             <h1 className='logo-link' alt='initials'> <AnimatedLetters
                letterClass={letterClass}
                strArray={'BS'.split("")}
