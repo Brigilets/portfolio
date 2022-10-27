@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faEnvelope, faHome, faSuitcase, faUser, faClose } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faEnvelope, faHome, faSuitcase, faUser, faClose,faGear } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
@@ -45,6 +45,9 @@ const Sidebar = () => {
             </NavLink>
             <NavLink exact="true" onClick={() => setShowNav(false)} activeclassname='active' className="contact-link" to='/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+            </NavLink>
+            <NavLink exact="true" onClick={() => setShowNav(false)} activeclassname='active' className="technologies-link" to='/technologies'>
+                <FontAwesomeIcon icon={faGear} color='#4d4d4e' />
             </NavLink>
             <FontAwesomeIcon 
             icon={faClose}

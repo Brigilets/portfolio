@@ -15,6 +15,7 @@
     &:hover {
         animation: rubberBand 1s;
         color: #ffd700;
+        cursor: pointer;
     }
 }
 @for $i from 1 through 35 {
